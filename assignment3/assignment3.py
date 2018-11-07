@@ -5,8 +5,7 @@ import glob
 import re
 from collections import Counter
 
-
-location_file_categories = "/home/nganbui/Documents/Job/exercise/Exercise_test/assignment3/items_categories.json"
+location_file_categories = os.getcwd() + "/assignment3/items_categories.json"
 """
 This is function to get list file json in activities directory
 input: location of activities directory
